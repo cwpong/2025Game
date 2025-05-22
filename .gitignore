@@ -14,9 +14,14 @@ Tools/FileServer/AssetRoot
 UnityProject/ProjectSettings/CommonBurstAotSettings.json
 UnityProject/ProjectSettings/BurstAotSettings_StandaloneWindows.json
 
-FantasyServer/Bin/*
-FantasyServer/Fantasy.Packages/Fantasy.ConfigTable/Net/obj/*
-FantasyServer/Server/Entity/bin/*
-FantasyServer/Fantasy.Packages/Fantasy.ConfigTable/Net/bin/*
-FantasyServer/Server/.vs/*
-FantasyServer/Server/Main/obj/*
+FantasyServer/Bin
+FantasyServer/Fantasy.Packages/Fantasy.ConfigTable/Net/obj
+FantasyServer/Server/Entity/bin
+FantasyServer/Fantasy.Packages/Fantasy.ConfigTable/Net/bin
+FantasyServer/Server/.vs
+FantasyServer/Server/Main/obj
+FantasyServer/Fantasy.Net/Fantasy.Net/bin
+FantasyServer/Fantasy.Net/Fantasy.Net/obj
+FantasyServer/Server/Entity/obj
+FantasyServer/Server/Hotfix/bin
+FantasyServer/Server/Hotfix/obj
