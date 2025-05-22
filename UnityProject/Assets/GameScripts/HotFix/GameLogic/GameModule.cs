@@ -1,4 +1,4 @@
-﻿using GameLogic;
+using GameLogic;
 using TEngine;
 using Object = UnityEngine.Object;
 
@@ -64,6 +64,9 @@ public class GameModule
 
     private static UIModule _ui;
 
+    public static NetModule NET => m_Net ??= NetModule.Instance;
+    private static NetModule m_Net;
+
     /// <summary>
     /// 获取场景模块。
     /// </summary>
@@ -114,5 +117,6 @@ public class GameModule
         _scene = null;
         _timer = null;
         _localization = null;
+        m_Net = null;
     }
 }

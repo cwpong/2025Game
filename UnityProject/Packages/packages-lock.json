@@ -13,6 +13,14 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.fantasy.unity": {
+      "version": "file:../Fantasy.Unity",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
     "com.tuyoogame.yooasset": {
       "version": "file:YooAsset",
       "depth": 0,
