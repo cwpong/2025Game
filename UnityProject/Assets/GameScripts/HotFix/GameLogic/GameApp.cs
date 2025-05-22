@@ -7,7 +7,7 @@ using Log = TEngine.Log;
 using Fantasy.Platform.Unity;
 using Fantasy.Async;
 #pragma warning disable CS0436
-
+// https://www.code-fantasy.com
 
 /// <summary>
 /// 游戏App。

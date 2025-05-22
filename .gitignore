@@ -25,3 +25,10 @@ FantasyServer/Fantasy.Net/Fantasy.Net/obj
 FantasyServer/Server/Entity/obj
 FantasyServer/Server/Hotfix/bin
 FantasyServer/Server/Hotfix/obj
+Tools/NuGet/Fantasy.Tools.ExporterNetworkProtocol/obj
+Tools/NuGet/Fantasy.Tools.ExporterConfigTable/obj
+Tools/SourceCode/Fantasy.Tools.ConfigTable/obj
+Tools/SourceCode/Fantasy.Tools.NetworkProtocol/obj
+*.v2
+*.vsidx
+*.suo

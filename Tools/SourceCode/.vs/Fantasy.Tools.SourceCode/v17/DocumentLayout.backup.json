@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|e:\\2025unityprojects\\2025game\\tools\\sourcecode\\fantasy.tools.configtable\\exporterages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|solutionrelative:fantasy.tools.configtable\\exporterages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|e:\\2025unityprojects\\2025game\\tools\\sourcecode\\fantasy.tools.configtable\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|solutionrelative:fantasy.tools.configtable\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExporterAges.cs",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\ExporterAges.cs",
+              "RelativeDocumentMoniker": "Fantasy.Tools.ConfigTable\\ExporterAges.cs",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\ExporterAges.cs",
+              "RelativeToolTip": "Fantasy.Tools.ConfigTable\\ExporterAges.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:19:33.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Fantasy.Tools.ConfigTable\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Fantasy.Tools.ConfigTable\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T11:16:37.716Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

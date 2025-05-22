@@ -141,6 +141,7 @@ namespace Fantasy.Network.KCP
             OnConnectComplete = onConnectComplete;
             OnConnectDisconnect = onConnectDisconnect;
             _connectEventArgs.Completed += OnConnectSocketCompleted;
+            // 设置连接超时计时器
             _connectTimeoutId = Scene.TimerComponent.Net.OnceTimer(connectTimeout, () =>
             {
                 OnConnectFail?.Invoke();

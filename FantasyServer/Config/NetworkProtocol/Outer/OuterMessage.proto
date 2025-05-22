@@ -128,3 +128,15 @@ message C2SubScene_TestDisposeMessage // IAddressableRouteMessage
 {
 	
 }
+
+// 
+message TestLoginRequest // IRequest, TestLoginResponse
+{
+	string Account = 1;
+	string PassWord = 2;
+}
+
+message TestLoginResponse // IResponse
+{
+
+}

@@ -548,4 +548,45 @@ namespace Fantasy
 		}
 		public uint OpCode() { return OuterOpcode.C2SubScene_TestDisposeMessage; }
 	}
+	[ProtoContract]
+	public partial class TestLoginRequest : AMessage, IRequest, IProto
+	{
+		public static TestLoginRequest Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<TestLoginRequest>();
+		}
+		public override void Dispose()
+		{
+			Account = default;
+			PassWord = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<TestLoginRequest>(this);
+#endif
+		}
+		[ProtoIgnore]
+		public TestLoginResponse ResponseType { get; set; }
+		public uint OpCode() { return OuterOpcode.TestLoginRequest; }
+		[ProtoMember(1)]
+		public string Account { get; set; }
+		[ProtoMember(2)]
+		public string PassWord { get; set; }
+	}
+	[ProtoContract]
+	public partial class TestLoginResponse : AMessage, IResponse, IProto
+	{
+		public static TestLoginResponse Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<TestLoginResponse>();
+		}
+		public override void Dispose()
+		{
+			ErrorCode = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<TestLoginResponse>(this);
+#endif
+		}
+		public uint OpCode() { return OuterOpcode.TestLoginResponse; }
+		[ProtoMember(1)]
+		public uint ErrorCode { get; set; }
+	}
 }
