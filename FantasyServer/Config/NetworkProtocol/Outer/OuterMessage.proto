@@ -140,3 +140,14 @@ message TestLoginResponse // IResponse
 {
 
 }
+
+message C2A_RegisteAccountRequest // IRequest, A2C_RegisteAccountResponse
+{
+	string Account = 1;
+	string PassWord = 2;
+}
+
+message A2C_RegisteAccountResponse // IResponse
+{
+
+}

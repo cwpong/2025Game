@@ -13,10 +13,10 @@
             "Comment": "Excel生成的代码文件、在服务端文件夹位置"
         },
 
-        "ExcelClientFileDirectory": {
-            "Value": "../../../../UnityProject/Assets/GameScripts/HotFix/GameProto/TableDataClass/",
-            "Comment": "Excel生成的代码文件、在客户端文件夹位置"
-        },
+      "ExcelClientFileDirectory": {
+        "Value": "../../../../UnityProject/Assets/GameScripts/HotFix/GameProto/TableDataClass/",
+        "Comment": "Excel生成的代码文件、在客户端文件夹位置"
+      },
         "ExcelServerBinaryDirectory": {
             "Value": "../../../FantasyServer/Config/Binary/",
             "Comment": "Excel生成服务器二进制数据文件夹位置"

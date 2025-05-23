@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Runtime.Loader;
+using Model;
 
 namespace Fantasy
 {
@@ -12,9 +13,10 @@ namespace Fantasy
         {
             get
             {
-                var assemblies = new System.Reflection.Assembly[2];
+                var assemblies = new System.Reflection.Assembly[3];
                 assemblies[0] = LoadEntityAssembly();
                 assemblies[1] = LoadHotfixAssembly();
+                assemblies[2] = LoadModleAssembly();
                 return assemblies;
             }
         }
@@ -22,6 +24,11 @@ namespace Fantasy
         private static System.Reflection.Assembly LoadEntityAssembly()
         {
             return typeof(AssemblyHelper).Assembly;
+        }
+
+        private static System.Reflection.Assembly LoadModleAssembly()
+        {
+            return typeof(ModelHelper).Assembly;
         }
         
         private static System.Reflection.Assembly LoadHotfixAssembly()

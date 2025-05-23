@@ -3,6 +3,8 @@ using Fantasy.Entitas;
 using Fantasy.Event;
 using Fantasy.Helper;
 using Fantasy.Serialize;
+using Hotfix;
+using Model;
 using ProtoBuf;
 
 namespace Fantasy;
@@ -48,6 +50,11 @@ public sealed class OnCreateSceneEvent : AsyncEventSystem<OnCreateScene>
         
         switch (scene.SceneType)
         {
+            case SceneType.Authentication:
+            {
+                self.Scene.AddComponent<AccountRegistComponent>();
+                break;
+            }
             case 6666:
             {
                 var subSceneTestComponent = scene.AddComponent<SubSceneTestComponent>();

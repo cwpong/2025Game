@@ -589,4 +589,45 @@ namespace Fantasy
 		[ProtoMember(1)]
 		public uint ErrorCode { get; set; }
 	}
+	[ProtoContract]
+	public partial class C2A_RegisteAccountRequest : AMessage, IRequest, IProto
+	{
+		public static C2A_RegisteAccountRequest Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<C2A_RegisteAccountRequest>();
+		}
+		public override void Dispose()
+		{
+			Account = default;
+			PassWord = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<C2A_RegisteAccountRequest>(this);
+#endif
+		}
+		[ProtoIgnore]
+		public A2C_RegisteAccountResponse ResponseType { get; set; }
+		public uint OpCode() { return OuterOpcode.C2A_RegisteAccountRequest; }
+		[ProtoMember(1)]
+		public string Account { get; set; }
+		[ProtoMember(2)]
+		public string PassWord { get; set; }
+	}
+	[ProtoContract]
+	public partial class A2C_RegisteAccountResponse : AMessage, IResponse, IProto
+	{
+		public static A2C_RegisteAccountResponse Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<A2C_RegisteAccountResponse>();
+		}
+		public override void Dispose()
+		{
+			ErrorCode = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<A2C_RegisteAccountResponse>(this);
+#endif
+		}
+		public uint OpCode() { return OuterOpcode.A2C_RegisteAccountResponse; }
+		[ProtoMember(1)]
+		public uint ErrorCode { get; set; }
+	}
 }

@@ -3,6 +3,24 @@
   "WorkspaceRootPath": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|e:\\2025unityprojects\\2025game\\tools\\sourcecode\\fantasy.tools.configtable\\exportersettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|solutionrelative:fantasy.tools.configtable\\exportersettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F9231E-F057-4121-B167-7AC47D48E7E3}|..\\NuGet\\Fantasy.Tools.ExporterNetworkProtocol\\Fantasy.Tools.ExporterNetworkProtocol.csproj|e:\\2025unityprojects\\2025game\\tools\\exporter\\networkprotocol\\exportersettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D45E2D-EF78-4D80-8BFC-ED95FA8543C7}|Fantasy.Tools.NetworkProtocol\\Fantasy.Tools.NetworkProtocol.csproj|e:\\2025unityprojects\\2025game\\tools\\sourcecode\\fantasy.tools.networkprotocol\\exporter\\protocolexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D45E2D-EF78-4D80-8BFC-ED95FA8543C7}|Fantasy.Tools.NetworkProtocol\\Fantasy.Tools.NetworkProtocol.csproj|solutionrelative:fantasy.tools.networkprotocol\\exporter\\protocolexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A236869-283F-4046-860B-E295963139AB}|..\\NuGet\\Fantasy.Tools.ExporterConfigTable\\Fantasy.Tools.ExporterConfigTable.csproj|e:\\2025unityprojects\\2025game\\tools\\exporter\\configtable\\exportersettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D45E2D-EF78-4D80-8BFC-ED95FA8543C7}|Fantasy.Tools.NetworkProtocol\\Fantasy.Tools.NetworkProtocol.csproj|e:\\2025unityprojects\\2025game\\tools\\sourcecode\\fantasy.tools.networkprotocol\\exportersettingshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D45E2D-EF78-4D80-8BFC-ED95FA8543C7}|Fantasy.Tools.NetworkProtocol\\Fantasy.Tools.NetworkProtocol.csproj|solutionrelative:fantasy.tools.networkprotocol\\exportersettingshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|e:\\2025unityprojects\\2025game\\tools\\sourcecode\\fantasy.tools.configtable\\exporterages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F01BD146-FDEA-46D6-9A08-F3CCF05D817E}|Fantasy.Tools.ConfigTable\\Fantasy.Tools.ConfigTable.csproj|solutionrelative:fantasy.tools.configtable\\exporterages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +41,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExporterSettings.json",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\ExporterSettings.json",
+              "RelativeDocumentMoniker": "Fantasy.Tools.ConfigTable\\ExporterSettings.json",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\ExporterSettings.json",
+              "RelativeToolTip": "Fantasy.Tools.ConfigTable\\ExporterSettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAxwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T13:00:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExporterSettings.json",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\Exporter\\NetworkProtocol\\ExporterSettings.json",
+              "RelativeDocumentMoniker": "..\\Exporter\\NetworkProtocol\\ExporterSettings.json",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\Exporter\\NetworkProtocol\\ExporterSettings.json",
+              "RelativeToolTip": "..\\Exporter\\NetworkProtocol\\ExporterSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T12:59:57.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExporterSettings.json",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\Exporter\\ConfigTable\\ExporterSettings.json",
+              "RelativeDocumentMoniker": "..\\Exporter\\ConfigTable\\ExporterSettings.json",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\Exporter\\ConfigTable\\ExporterSettings.json",
+              "RelativeToolTip": "..\\Exporter\\ConfigTable\\ExporterSettings.json",
+              "ViewState": "AgIAABkAAAAAAAAAAAD4vycAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T12:59:07.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProtocolExporter.cs",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.NetworkProtocol\\Exporter\\ProtocolExporter.cs",
+              "RelativeDocumentMoniker": "Fantasy.Tools.NetworkProtocol\\Exporter\\ProtocolExporter.cs",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.NetworkProtocol\\Exporter\\ProtocolExporter.cs",
+              "RelativeToolTip": "Fantasy.Tools.NetworkProtocol\\Exporter\\ProtocolExporter.cs",
+              "ViewState": "AgIAALkCAAAAAAAAAAAnwMACAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:36:49.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExporterSettingsHelper.cs",
+              "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.NetworkProtocol\\ExporterSettingsHelper.cs",
+              "RelativeDocumentMoniker": "Fantasy.Tools.NetworkProtocol\\ExporterSettingsHelper.cs",
+              "ToolTip": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.NetworkProtocol\\ExporterSettingsHelper.cs",
+              "RelativeToolTip": "Fantasy.Tools.NetworkProtocol\\ExporterSettingsHelper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA+wB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:36:49.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ExporterAges.cs",
               "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\ExporterAges.cs",
               "RelativeDocumentMoniker": "Fantasy.Tools.ConfigTable\\ExporterAges.cs",
@@ -30,12 +109,11 @@
               "RelativeToolTip": "Fantasy.Tools.ConfigTable\\ExporterAges.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAIAwwAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:19:33.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T11:19:33.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\2025UnityProjects\\2025Game\\Tools\\SourceCode\\Fantasy.Tools.ConfigTable\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Fantasy.Tools.ConfigTable\\Properties\\launchSettings.json",

@@ -31,5 +31,7 @@ namespace Fantasy
 		 public const uint C2SubScene_TestDisposeMessage = 1342187283;
 		 public const uint TestLoginRequest = 268445462;
 		 public const uint TestLoginResponse = 402663190;
+		 public const uint C2A_RegisteAccountRequest = 268445463;
+		 public const uint A2C_RegisteAccountResponse = 402663191;
 	}
 }

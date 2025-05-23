@@ -19,6 +19,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Fantasy.Net\Fantasy.Net\Fantasy.Net.csproj" />
       <ProjectReference Include="..\..\Fantasy.Packages\Fantasy.ConfigTable\Net\Fantasy.ConfigTable.csproj" />
+      <ProjectReference Include="..\Model\Model.csproj" />
     </ItemGroup>
 
 </Project>

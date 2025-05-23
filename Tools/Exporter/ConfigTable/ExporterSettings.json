@@ -14,7 +14,7 @@
         },
 
         "ExcelClientFileDirectory": {
-            "Value": "../../../../UnityProject/Assets/GameScripts/HotFix/GameProto/TableDataClass/",
+            "Value": "../../../../UnityProject/Assets/GameScripts/HotFix/GameLogic/TableDataClass/",
             "Comment": "Excel生成的代码文件、在客户端文件夹位置"
         },
         "ExcelServerBinaryDirectory": {
@@ -38,7 +38,7 @@
             "Comment": "Excel在服务端生成自定义代码的文件夹位置"
         },
         "ClientCustomExportDirectory": {
-            "Value": "./../../../UnityProject/Assets/GameScripts/HotFix/GameProto/TableClass/",
+            "Value": "./../../../UnityProject/Assets/GameScripts/HotFix/GameLogic/TableClass/",
             "Comment": "Excel在客户端端生成自定义代码的文件夹位置"
         }
     }

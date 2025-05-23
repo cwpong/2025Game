@@ -29,6 +29,8 @@ Tools/NuGet/Fantasy.Tools.ExporterNetworkProtocol/obj
 Tools/NuGet/Fantasy.Tools.ExporterConfigTable/obj
 Tools/SourceCode/Fantasy.Tools.ConfigTable/obj
 Tools/SourceCode/Fantasy.Tools.NetworkProtocol/obj
+Tools/NuGet/Fantasy.Tools.ExporterNetworkProtocol/bin
 *.v2
 *.vsidx
 *.suo
+FantasyServer/Server/Model/bin/Debug
