@@ -33,8 +33,9 @@ public partial class GameApp
     
     private static void StartGameLogic()
     {
-        GameEvent.Get<ILoginUI>().ShowLoginUI();
-        GameModule.UI.ShowUIAsync<BattleMainUI>();
+        //GameEvent.Get<ILoginUI>().ShowLoginUI();
+        //GameModule.UI.ShowUIAsync<BattleMainUI>();
+        GameModule.UI.ShowUIAsync<LoginUI>();
         GameModule.NET.FantasyInit();
     }
 

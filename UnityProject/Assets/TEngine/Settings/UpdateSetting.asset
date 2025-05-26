@@ -16,6 +16,7 @@ MonoBehaviour:
   HotUpdateAssemblies:
   - GameProto.dll
   - GameLogic.dll
+  - GameTools.dll
   AOTMetaAssemblies:
   - mscorlib.dll
   - System.dll
